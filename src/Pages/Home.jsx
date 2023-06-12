@@ -5,7 +5,7 @@ function Home(){
         <>
         <div className="main-home-row">
             
-          <div className='img'>
+          <div className='banner'>
         <div className='shadow'> </div>
 
         <div className='home-text-main'>

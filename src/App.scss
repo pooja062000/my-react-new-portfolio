@@ -75,8 +75,8 @@ a{
   float: left;
   margin-top: 69px;
   //border: 4px solid red;
-
-  .img{
+}
+  .banner{
     width: 100%;
     height: 100vh;
     float: left;
@@ -84,18 +84,24 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
   }
   
-  /*.shadow{
+  .shadow{
   width: 100%;
   height: 100vh;
-}*/
+  background-color: rgba(1, 0 ,0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .home-text-main{
   width: 40%;
   //height: 100px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 200px;
+  position: relative;
   //border: 2px solid red;
 }
 .text-home{
@@ -108,7 +114,7 @@ a{
   font-size: 35px;
 }
 
-}
+
 
 .services-row{
   width: 100%;
@@ -712,7 +718,7 @@ background-color: #b7b7c078;
   margin-top: 69px;
   //border: 2px solid red;
   background-color: #34343bdd;
- 
+}
   .project-col{
     width: 85%;
     //height: 180vh;
@@ -774,18 +780,20 @@ background-color: #b7b7c078;
   }
   .project-box1{
     width: 32%;
-    height: 320px;
+    height: auto;
     float: left;
-    position: relative;
-    //border: 2px solid orchid;
+    img{
+      width: 100%;
+      height: 317px;
+      border-radius: 4px;
+      
+    }
+    border: 2px solid orchid;
+}
+.project-box1 img:hover{
+  background-color: #111418;
 }
 
-.my-img1{
-  width: 100%;
-  height: 317px;
-  border-radius: 4px;
-  
-}
 
 .project-box2{
   width: 32%;
@@ -897,7 +905,7 @@ background-color: #b7b7c078;
   border-radius: 4px;
 }
 
-}
+
 
 
 // skills page

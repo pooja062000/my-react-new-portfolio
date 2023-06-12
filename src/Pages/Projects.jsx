@@ -7,6 +7,7 @@ import slider from '../Assets/Images/slick.jpg'
 import ice from '../Assets/Images/zamto.jpg'
 import laptop from '../Assets/Images/laptop1.jpg'
 import shirst from '../Assets/Images/shir.png'
+
 function Projects(){
     return(
         <>
