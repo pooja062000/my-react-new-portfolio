@@ -19,8 +19,8 @@ function About(){
                     creating seamless and responsive designs that adapt to different devices and screen sizes.I take pride in writing clean and efficient code, optimizing performance,
                      and ensuring a smooth user experience.  I create successful websites that are fast, easy to use, and built with best practices.
                     </p>
-            <div className='educat'>My Education</div>
-                    <div className='educ'>Degree: B.A.C</div>
+               <div className='educat'>My Education</div>
+                    <div className='educ'>Degree: B.Sc</div>
                     <div className='educ1'>Email : poojawebdeveloper2023@gmail.com</div>
 
                     <button className='butt1'>DOWNLOAD CV</button>
@@ -75,25 +75,25 @@ function About(){
               <div className="my-bolgs-colum">
                 <div className="blogs-box1">
                   <img src={blogimg} alt="blogimg" className='bloimg1'/>
-                  <div className="design-blog">
-                  <NavLink to="https://techcrunch.com/">What has happened  to all of the Design ideas</NavLink>
-                </div>
+                  
+                  <NavLink to="https://techcrunch.com/" className="design-blog2">What has happened  to all of the Design ideas</NavLink>
+            
                 <h3>October 15th, 2022</h3>
                 </div>
                
                 <div className="blogs-box2">
                 <img src={blogimg2} alt="blogimg2" className='bloimg1'/>
-                <div className="design-blog2">
-               <NavLink to="https://www.itproportal.com/">The  Best Sale Marketer Of The Next Year</NavLink>
-                </div>
+        
+               <NavLink to="https://www.itproportal.com/" className="design-blog2">The  Best Sale Marketer Of The Next Year</NavLink>
+               
                 <h3>November 18th, 2022</h3>
                 </div>
                 <div className="blogs-box3">
                   
                 <img src={blogimg3} alt="blogimg3" className='bloimg1'/>
-                <div className="design-blog2">
-               <NavLink to="https://www.itproportal.com/">What gets in the way of the greate Stategy</NavLink>
-               </div>
+               
+               <NavLink to="https://www.itproportal.com/" className="design-blog2">What gets in the way of the greate Stategy</NavLink>
+            
                <h3>November 25th, 2022</h3>
                 </div>
                 
