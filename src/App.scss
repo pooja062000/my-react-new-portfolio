@@ -47,7 +47,6 @@ a{
   height: 69px;
   float: left;
   background-color: $color;
-  //border:2px solid rgb(21, 7, 220);
   position: fixed;
 
   .logo{
@@ -55,7 +54,6 @@ a{
     height: 65px;
     float: left;
     color: #e7e2e2 !important;
-    //border: 2px solid red;
     padding-top: 12px;
     font-size: 23px;
   }
@@ -63,7 +61,6 @@ a{
   .navbarr{
     width: 45%;
     height: 65px;
-    //border: 2px solid red;
     padding-top: 10px;
     float: right;
   }
@@ -129,15 +126,8 @@ a{
     margin-top: 50px;
     //border: 2px solid rgb(122, 13, 200);
   }
-  /*.colo{
-    width: 36px;
-    height: 36px;
-    margin: 0 auto;
-    background-color: ;
-    border-radius: 50%;
-  
-  }*/
-  h1{
+ 
+  .sevice-heading{
     font-size: 18px;
     font-weight: 500;
     margin-left: -25px;
@@ -205,14 +195,14 @@ a{
     font-size: 40px;
     padding-top: 40px;
   }
-  h6{
+  .favicon-icon{
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     padding-top: 12px;
   }
   
-  h6:hover{
+  .favicon-icon:hover{
     color: #20c997;;
   }
 
@@ -324,7 +314,7 @@ background-color: #34343bdd;
   padding-top: 40px;
   color: #e7e2e2;
 }
-h4{
+.numbe-text{
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -718,14 +708,14 @@ background-color: #b7b7c078;
     //border: 2px solid $red;
   }
 
-  h2{
+  .proj-heading{
     font-size: 23px;
     letter-spacing: 1px;
     font-weight: 500;
     color: #e7e2e2;
   }
 
-  h3{
+  .proj-head2{
     font-size: 28px;
     color: #e7e2e2;
     font-weight: 400;
@@ -924,7 +914,42 @@ background-color: #b7b7c078;
     margin-top: 70px;
     //border: 2px solid red;
   }
+  .skill-border-main{
+    width: 195px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+    //border: 2px solid $red;
+  }
+  .skill-border{
+    width: 80px;
+    height: 4px;
+    margin-top: 5px;
+    float: left;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
 
+  .skill-border1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #20c997;
+    //margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #20c997;
+  }
+  .skill-border2{
+    width: 80px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
   h4{
     color:#e7e2e2;
     font-size: 28px;
@@ -933,7 +958,7 @@ background-color: #b7b7c078;
 .skills-col1{
   width: $width_full;
   float: left;
-  margin-top: 50px;
+  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   //border: 2px solid white;

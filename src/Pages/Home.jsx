@@ -19,9 +19,9 @@ function Home(){
     <div className="services-row">
         
     <div class='servies-cont'>
-    <div className='colo'>
-                    <h1>SERVICES</h1>
-                    </div>
+   
+                    <h1 className="sevice-heading">SERVICES</h1>
+                    
                     <div className='service-heading'>Let's See My Services</div>
                    <div className='services-border-main'>
                     <div className='services-border'></div>
@@ -34,24 +34,24 @@ function Home(){
         
     <i class="fa fa-address-card-o"></i>
           
-            <h6>Graphic Work</h6>
+            <h6 className="favicon-icon">Graphic Work</h6>
         </div>
           
         <div className="services-box2"> 
        
     <i class="fa fa-line-chart"></i>
         
-            <h6>Enterprise App Development</h6>
+            <h6 className="favicon-icon">Enterprise App Development</h6>
         </div>
         <div className="services-box3">
         <i class="fa fa-code"></i>
         
-        <h6>Web Development</h6>
+        <h6 className="favicon-icon">Web Development</h6>
         </div>
         
         <div className="services-box4">
         <i class="fa fa-search"></i>
-            <h6>Web Research</h6>
+            <h6 className="favicon-icon">Web Research</h6>
             </div>
         </div>
         </div>
@@ -60,23 +60,23 @@ function Home(){
             
         <div className="services-box5">
         <i class="fa fa-picture-o"></i>
-        <h6>User Experience</h6>
+        <h6 className="favicon-icon">User Experience</h6>
         </div>
         
         <div className="services-box6">
         <i class="fa fa-mobile"></i>
-        <h6>Responsive Website</h6>
+        <h6 className="favicon-icon">Responsive Website</h6>
         </div>
 
         
         <div className="services-box7">
         <i class="fa fa-briefcase" ></i>
-        <h6>eCommerce</h6>
+        <h6 className="favicon-icon">eCommerce</h6>
         </div>
         
         <div className="services-box8">
         <i class="fa fa-bar-chart"></i>
-        <h6>Marketing</h6>
+        <h6 className="favicon-icon">Marketing</h6>
         </div>
         </div>
         </div>
@@ -85,22 +85,22 @@ function Home(){
         <div className="numbers-colum">
         <div className="number-box1">
         <div className="years">1 +</div>   
-        <h4>Years of Experience</h4> 
+        <h4 className="numbe-text">Years of Experience</h4> 
         </div> 
         <div className="number-box2">
            
         <div className="years">200 +</div>  
-        <h4>Completed Projects</h4> 
+        <h4 className="numbe-text">Completed Projects</h4> 
         </div> 
         <div className="number-box3">
             
         <div className="years">60 +</div> 
-        <h4>Design Items</h4> 
+        <h4 className="numbe-text">Design Items</h4> 
         </div> 
         <div className="number-box4">
             
         <div className="years">20 +</div> 
-        <h4>Clients Served</h4> 
+        <h4 className="numbe-text">Clients Served</h4> 
         </div>    
         </div>    
         </div>  

@@ -14,8 +14,8 @@ function Projects(){
         <>
         <div className='project-main-row'>
             <div className='project-col'>
-                <h2>Portfolio</h2>
-                <h3>Let's See My Work</h3>
+                <h2 className="proj-heading">Portfolio</h2>
+                <h3 className="proj-head2">Let's See My Work</h3>
                 <div className='project-border-main'>
             <div className='project-border'></div>
             <div className='project-border1'></div>

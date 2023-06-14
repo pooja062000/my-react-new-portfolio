@@ -4,6 +4,12 @@ function Skills(){
         <div className='skills-row-main'>
             <div className='skills-colum'>
                 <h4>My Skills</h4>
+                <div className='skill-border-main'>
+            <div className='skill-border'></div>
+            <div className='skill-border1'></div>
+            <div className='skill-border1'></div>
+            <div className='skill-border2'></div>
+            </div>
 
                 <div className='skills-col1'>
                 <div className='skills-box1'>
