@@ -3,7 +3,7 @@ function Skills(){
         <>
         <div className='skills-row-main'>
             <div className='skills-colum'>
-                <h4>My Skills</h4>
+                <h4 className="skill-heading">My Skills</h4>
                 <div className='skill-border-main'>
             <div className='skill-border'></div>
             <div className='skill-border1'></div>

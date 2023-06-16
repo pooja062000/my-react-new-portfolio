@@ -10,8 +10,8 @@ function About(){
         <div className='about-row'>
             <div className="about-main-colum">
                 <div className='about-box1'>
-                  <h2>Expert Web Developer & Designer</h2>
-                    <h1>About Me</h1>
+                  <h2 className="about-heading">Expert Web Developer & Designer</h2>
+                    <h1 className='about-textin'>About Me</h1>
                     <div className='about-boder'></div>
                     <p className='about-text'>Hi! I'm Pooja Mittal, a passionate and innovative web developer with 2021 years of 
                     experience in the industry.  I thrive on turning complex ideas into user-friendly and visually appealing websites
@@ -64,8 +64,8 @@ function About(){
               </div>
             </div>
             <div className="blogs-row-main">
-              <h2>Blogs</h2>
-              <h4>Let's See My Work</h4>
+              <h2 className="blog-main-heading">Blogs</h2>
+              <h4 className="blog-heading">Let's See My Work</h4>
               <div className='blog-border-main'>
             <div className='blog-border'></div>
             <div className='blog-border1'></div>
@@ -78,7 +78,7 @@ function About(){
                   
                   <NavLink to="https://techcrunch.com/" className="design-blog2">What has happened  to all of the Design ideas</NavLink>
             
-                <h3>October 15th, 2022</h3>
+                <h3 className="blog-date">October 15th, 2022</h3>
                 </div>
                
                 <div className="blogs-box2">
@@ -86,7 +86,7 @@ function About(){
         
                <NavLink to="https://www.itproportal.com/" className="design-blog2">The  Best Sale Marketer Of The Next Year</NavLink>
                
-                <h3>November 18th, 2022</h3>
+                <h3 className="blog-date">November 18th, 2022</h3>
                 </div>
                 <div className="blogs-box3">
                   
@@ -94,7 +94,7 @@ function About(){
                
                <NavLink to="https://www.itproportal.com/" className="design-blog2">What gets in the way of the greate Stategy</NavLink>
             
-               <h3>November 25th, 2022</h3>
+               <h3 className="blog-date">November 25th, 2022</h3>
                 </div>
                 
               </div>

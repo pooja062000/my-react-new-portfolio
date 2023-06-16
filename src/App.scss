@@ -48,7 +48,7 @@ a{
   float: left;
   background-color: $color;
   position: fixed;
-
+}
   .logo{
     width: 25%;
     height: 65px;
@@ -64,7 +64,7 @@ a{
     padding-top: 10px;
     float: right;
   }
-}
+
 
 .main-home-row{
   width: 100%;
@@ -293,21 +293,18 @@ a{
 .numbers-row{
   width: $width_full;
   float: left;
-  //border: 2px solid rgb(250, 9, 89);
 background-color: #34343bdd;
-
+}
 .numbers-colum{
   width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  //border: 2px solid yellow;
 }
 .number-box1{
   width: 24%;
   height: 170px;
   float: left;
-  //border: 2px solid darkorange;
 }
 .years{
   font-size: 20px;
@@ -339,7 +336,7 @@ background-color: #34343bdd;
   float: left;
   //border: 2px solid darkorange;
 }
-}
+
 
 .about-row{
   width: 100%;
@@ -455,15 +452,15 @@ padding-right: 20px;
   float: left;
   //border: 2px solid firebrick;
   background-color: rgba(52, 52, 59, 0.9882352941);
-
-  h2{
+}
+  .blog-main-heading{
     padding-top: 70px;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 0.3px;
     color: #e7e2e2;
   }
-  h4{
+.blog-heading{
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0.2px;
@@ -530,7 +527,7 @@ padding-right: 20px;
   font-size: 13px;
  }
 
- h3{
+ .blog-date{
 font-size: 15px;
 text-align: justify;
 padding-left: 38px;
@@ -566,7 +563,7 @@ color: #e7e2e2;
   
   background-color: rgba(0, 0, 0, 0.496);
  }
-}
+
 
 .testmonial-row{
   width: $width_full;
@@ -574,13 +571,13 @@ color: #e7e2e2;
   float: left;
   background-color: #34343bdd;
   //border: 2px solid red;
-
+}
 .testmonial-main-col{
 width: 85%;
 //height: 650px;
 margin: 0 auto;
 margin-top: 70px;
-//border: 2px solid white;
+}
 
 .testm-heading{
   font-size: 22px;
@@ -686,8 +683,8 @@ background-color: #b7b7c078;
   height: 230px;
   border: 2px solid grey;
 }
-}
-}
+
+
 
 
 // projects page
@@ -906,7 +903,7 @@ background-color: #b7b7c078;
   margin-top: 69px;
   background-color: rgba(52, 52, 59, 0.9882352941);
   //border: 2px solid rgb(3, 255, 255);
-
+}
   .skills-colum{
     width: 85%;
     height: 367px;
@@ -950,7 +947,7 @@ background-color: #b7b7c078;
     background-color: #20c997;
     border: 2px solid #20c997;
   }
-  h4{
+  .skill-heading{
     color:#e7e2e2;
     font-size: 28px;
     letter-spacing: 1px;
@@ -1084,7 +1081,7 @@ background-color: #b7b7c078;
     margin-top: 30px;
     background: linear-gradient(to right, #20c997 60%, #111418 40%); 
   }
-}
+
 
 // contact page
 .contact-main-row{
@@ -1163,9 +1160,8 @@ i{
   width: $width_full;
   height: 583px;
   float: left;
- // border: 2px solid rgb(46, 250, 6);
   background-color: rgba(52, 52, 59, 0.9882352941);
-
+}
   .map-colum{
     width: 85%;
     height: 500px;
@@ -1173,7 +1169,7 @@ i{
     margin-top: 80px;
    // border: 2px solid purple;
   }
-}
+
 
 .footar-main-row{
   width: $width_full;
@@ -1182,14 +1178,14 @@ i{
   margin-top: 0px;
   //background-color: red;
   background-color: rgba(52, 52, 59, 0.9882352941);
-
+}
   .footar-colum{
     width: 85%;
     //height: 80px;
     margin: 0 auto;
     //border: 2px solid yellow;
   }
-  h5{
+  .footar-line{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -1197,4 +1193,452 @@ i{
     color:#e7e2e2;
 
   }
+
+ // header media query
+
+  @media screen and (min-width: 320px) and (max-width: 400px){
+
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    display: none;
+  }
+  .navbarr{
+    width: 100%;
+    height: 65px;
+    padding-top: 21px;
+    float: right;
+  }
+  a{
+    font-size: 15px;
+  padding-left: 5px;
+    
+  }
+
+  .main-home-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  }
+    .banner{
+      width: 100%;
+      float: left;
+      background-image: url('../src/Assets/Images/homebanner.jpg ');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  
+    }
+    .home-text-main{
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 200px;
+      position: relative;
+    }
+    .text-home{
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .text-home1{
+      font-size: 23px;
+      text-align: start;
+    }
+
+    
+.services-row{
+  width: 100%;
+  float: left;
+
+  .servies-cont{ 
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .sevice-heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -25px;
+    text-align: center;
+    padding-top: 12px;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 21px;
+    padding-top: 5px;
+  }
+  .sevices-box-col{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services-box1{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 25px;
+   background-color: #3333366e; 
+  }
+  i{
+    font-size: 38px;
+    padding-top: 40px;
+  }
+  .favicon-icon{
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    padding-top: 17px;
+  }
+  
+  .favicon-icon:hover{
+    color: #20c997;;
+  }
+
+  i{
+    color: #e7e2e2;
+   
+  }
+  i:hover{
+    color: #20c997;;
+  }
+  .services-box2{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+  .services-box3{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+  .services-box4{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+
+}
+
+.services-cont2{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .services-box5{
+    width: 100%;
+    height: 220px;
+    float: left;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+  .services-box6{
+    width: 100%;
+    height: 220px;
+    float: left;
+  }
+
+  .services-box7{
+    width: 100%;
+    height: 220px;
+    float: left;
+  }
+
+  .services-box8{
+    width: 100%;
+    height: 220px;
+    float: left;
+  }
+  }
+
+  //number media query
+  .numbers-row{
+    width: $width_full;
+    float: left;
+  }
+  .numbers-colum{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .number-box1{
+    width: 100%;
+    height: 170px;
+    float: left;
+    background-color: #3333366e;
+  }
+  .numbe-text{
+    font-size: 17px;
+    padding-top: 13px;
+  }
+  .number-box2{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    background-color: #3333366e;
+  }
+  .number-box3{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    background-color: #3333366e;
+  }
+  .number-box4{
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    background-color: #3333366e;
+  }
+  .footar-main-row{
+    width: $width_full;
+    float: left;
+    margin-top: 0px;
+  }
+  .footar-colum{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footar-line{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 25px;
+  
+  }
+  
+.about-row{
+  width: 100%;
+  float: left;
+  margin-top: 69px;
+
+  .about-main-colum{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .about-box1{
+    width: 100%;
+    float: left;
+  }
+  h2{
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0.3;
+  }
+  h1{
+    text-align: justify;
+    font-size: 25px;
+    padding-top: 8px;
+  }
+  .about-text{
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    padding-right: 20px;
+    }
+    .educat{
+      font-size: 17px;
+      text-align: justify;
+      padding-top: 20px;
+    }
+    .educ{
+      font-size: 16px;
+      text-align: justify;
+      padding-top: 9px;
+    }
+    .educ1{
+      font-size: 14px;
+      text-align: justify;
+      padding-top: 8px;
+    }
+    
+.educ1:hover{
+  
+  color: #20c997;
+ }
+ .educ:hover{
+  color: #20c997;
+ }
+ .butt1{
+  width: 160px;
+  height: 55px;
+  float: left;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.butt1:hover{
+  background-color: rgb(130, 120, 120);
+}
+.about-box2{
+  width: 100%;
+  height: 490px;
+  float: left;
+}
+.imgabout{
+  width: 100%;
+  height: 410px;
+  background-image: url('../src/Assets/Images/abouttop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  }
+}
+
+.testmonial-row{
+  width: $width_full;
+  float: left;
+  height: 830px;
+}
+  
+.testmonial-main-col{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+
+  .testm-heading{
+    font-size: 19px;
+  }
+  .custor{
+    font-size: 21px;
+  }
+  .testm-border-main{
+    width: 154px;
+    height: 30px;
+    margin: 0 auto;
+  margin-top: 14px;
+
+  }
+  .testm-border{
+    width: 60px;
+    height: 4px;
+    float: left;
+  }
+  .testm-border1{
+    width: 6px;
+    height: 6px;
+  }
+  .testmo-border2{
+    width: 60px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+}
+.clients-main-col{
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.clients-box1{
+  width: 100%;
+  float: left;
+}
+h1{
+  letter-spacing: 1px;
+  margin-left: 22px;
+  text-align: justify;
+}
+.clients-text{
+  font-size: 15px;
+  margin: 13px;
+  text-align: justify;
+  padding-left: 10px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #e7e2e2;
+  letter-spacing: 0.2;
+}
+.clients-box2{
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.clients-button{
+  width: 63%;
+  height: 45px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 60px;
+  
+}
+.clients-button:hover{
+  color: white;
+  background-color: #b7b7c078;
+  }
+
+  .blogs-row-main{
+    width: $width_full;
+    height: 220vh;
+    float: left;
+  }
+
+  .blog-main-heading{
+    padding-top: 70px;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+  }
+.blog-heading{
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    padding-top: 8px;
+  }
+  .my-bolgs-colum{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blogs-box1{
+    width: 100%;
+    float: left;
+    height: 360px;
+   }
+   
+   .design-blog2{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    margin-top: 20px;
+ }
+  
+   .blog-date{
+  font-size: 14px;
+  padding-left: 9px;
+  font-weight: 400;
+  padding-top: 15px;
+  text-align: justify;
+  
+   }
+   .blogs-box2{
+    width: 100%;
+    float: left;
+    height: 360px;
+    margin-top: 30px;
+   }
+   .blogs-box3{
+    width: 100%;
+    float: left;
+    height: 360px;
+    margin-top: 30px;
+   }
 }

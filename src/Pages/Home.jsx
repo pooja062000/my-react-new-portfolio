@@ -37,7 +37,7 @@ function Home(){
             <h6 className="favicon-icon">Graphic Work</h6>
         </div>
           
-        <div className="services-box2"> 
+       <div className="services-box2"> 
        
     <i class="fa fa-line-chart"></i>
         
