@@ -12,10 +12,10 @@ function Header(){
         <NavLink to="/about" className='hello'>About</NavLink>
         <NavLink to="/skills" className='hello'>Skills</NavLink>
         <NavLink to="/projects" className='hello'> Projects</NavLink>
-    <NavLink to="/contact" className='hello'>Contact</NavLink>
+            <NavLink to="/contact" className='hello'>Contact</NavLink>
             </div>
         </div>
-
+     
         </>
     )
 }
