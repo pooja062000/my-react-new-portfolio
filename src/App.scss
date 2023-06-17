@@ -95,23 +95,24 @@ a{
 }
 .home-text-main{
   width: 40%;
-  //height: 100px;
   margin: 0 auto;
   margin-top: 200px;
   position: relative;
-  //border: 2px solid red;
 }
 .text-home{
   font-size: 35px;
-  color: white;
+  margin: 0 auto;
 }
 
 .text-home1{
-  color: white;
+  width: 250px;
+ height: 70px;
   font-size: 35px;
+  margin: 0 auto;
+  margin-top: 8px;
 }
 
-
+//service page media query
 
 .services-row{
   width: 100%;
@@ -359,18 +360,19 @@ background-color: #34343bdd;
     float: left;
     //border: 2px solid yellow;
   }
-h2{
+.about-heading{
   color: #e1e1e1e5;
   font-size: 17px;
   font-weight: 500;
   text-align: justify;
   letter-spacing: 0.3;
 }
-h1{
-  text-align: justify;
+.about-textin{
   font-size: 30px;
   color: #e7e2e2;
   padding-top: 8px;
+  text-align: justify;
+  margin-left: -0px;
 }
 .about-boder{
   width: 80px;
@@ -1213,7 +1215,7 @@ i{
   }
   a{
     font-size: 15px;
-  padding-left: 5px;
+  padding-left: 4px;
     
   }
 
@@ -1409,7 +1411,7 @@ i{
     margin: 0 auto;
   }
   .footar-line{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5px;
     margin: 25px;
@@ -1432,15 +1434,15 @@ i{
     width: 100%;
     float: left;
   }
-  h2{
+  .about-heading{
     font-size: 16px;
     text-align: justify;
     letter-spacing: 0.3;
   }
-  h1{
-    text-align: justify;
+  .about-textin{
     font-size: 25px;
     padding-top: 8px;
+    text-align: justify;
   }
   .about-text{
     font-size: 15px;
@@ -1641,4 +1643,210 @@ h1{
     height: 390px;
     margin-top: 30px;
    }
+
+   //project page media query
+.project-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+}
+.project-col{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-heading{
+  width: 200px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  margin-top: 0px;
+  
+}
+.proj-head2{
+  font-size: 24px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.project-border-main{
+  margin-top: 19px;
+}
+.project-final-box{
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-box1{
+  width: 100%;
+  height: 360px;
+  float: left;
+}
+.my-img1{
+  width: 100%;
+  height: 260px;
+}
+.dev1{
+  font-size: 17px;
+  padding-top: 15px;
+}
+.gitlink1{
+font-size: 14px;
+padding-top: 30px;
+}
+.project-box2{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img2{
+  width: 100%;
+  height: 260px;
+}
+.project-box3{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img3{
+  width: 100%;
+  height: 260px;
+}
+.project-colum2{
+  width: $width_full;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-box4{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img4{
+  width: 100%;
+  height: 260px;
+  border-radius: 4px;
+}
+.project-box5{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img5{
+  width: 100%;
+  height: 260px;
+}
+.project-box6{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img6{
+  width: 100%;
+  height: 260px;
+}
+.project-colum3{
+  width: $width_full;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-box7{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img7{
+  width: 100%;
+  height: 260px;
+}
+.project-box8{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img8{
+  width: 100%;
+  height: 260px;
+}
+.project-box9{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-top: 25px;
+}
+.my-img9{
+  width: 100%;
+  height: 260px;
+}
+
+// contact page media query
+
+.contact-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+
+  .contact-colum{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  .contact-box-col{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .contact-box1{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+   }
+   i{
+    font-size: 24px;
+  }
+  .link-email{
+    font-size: 17px;
+  }
+   .contact-box2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+   }
+   .phone-no{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 30px;
+   }
+   .contact-box3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+   }
+   
+}
+.map-row{
+  width: $width_full;
+}
+.map-colum{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
 }

@@ -34,7 +34,7 @@ function Projects(){
                     <div className='project-box2'>
                         <img src={dev} alt='dev' className='my-img2'/>
                         
-                       <p  className='dev1'>Developer</p>
+                  <p  className='dev1'>Developer</p>
                        <NavLink to="https://github.com/pooja062000/developer" className='gitlink1'>SEE MORE</NavLink>
                     </div>
                     <div className='project-box3'>
@@ -75,7 +75,7 @@ function Projects(){
                     <div className='project-box8'>
                         <img src={laptop} alt='laptop' className='my-img8' />
                         
-                    <p  className='dev1'>Portfolio</p>
+                    <p  className='dev1'>My Portfolio</p>
                        <NavLink to="https://github.com/pooja062000/My-portfolio"className='gitlink1'>SEE MORE</NavLink>
                     </div>
                     <div className='project-box9'>
@@ -84,9 +84,10 @@ function Projects(){
                     <p  className='dev1'>Product-list</p>
                        <NavLink to="https://github.com/pooja062000/Product-List1"className='gitlink1'>SEE MORE</NavLink>   
                     </div>  
-                    </div>
+
 
             </div>
+        </div>
         </div>
         </>
     )
