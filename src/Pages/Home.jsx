@@ -6,15 +6,19 @@ function Home(){
         <div className="main-home-row">
             
           <div className='banner'>
-        <div className='shadow'> </div>
-
+        <div className='shadow'> 
         <div className='home-text-main'>
-        <div className='text-home'>Hello!!</div>
-        <div className='text-home1'>I'm Frontend Developer</div>
+          
+        <div className='text-home1'> Hello !! <br/>I'm Frontend Developer</div>
+       
+        </div>
+        </div>
         
+
+      
         </div> 
         </div>
-        </div>
+
        
     <div className="services-row">
         
@@ -31,9 +35,9 @@ function Home(){
                     </div>
                     <div className='sevices-box-col'>
     <div className="services-box1">
-        
+       
     <i class="fa fa-address-card-o"></i>
-          
+    
             <h6 className="favicon-icon">Graphic Work</h6>
         </div>
           

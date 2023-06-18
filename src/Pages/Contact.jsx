@@ -9,6 +9,7 @@ function Contact(){
             <div className="contact-box-col">
                 <div className="contact-box1">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
+                
                 <div className="link-email">
                   <NavLink to="poojamittal.in">poojamittal.in</NavLink>
                 </div>
@@ -17,13 +18,12 @@ function Contact(){
                 <div className="contact-box2">
                 <i class="fa fa-phone" aria-hidden="true"> </i>
                     <div className="phone-no">+91 9306314660</div>
-               
-                </div>
+               </div>
+                
                 
                 <div className="contact-box3">
                 <i class="fa fa-location-arrow" aria-hidden="true"></i>
-    
-                  
+                
                 <div className="phone-no">Kosli, Rewari, India</div>  
               
                 </div>

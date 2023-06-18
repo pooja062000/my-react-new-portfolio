@@ -92,17 +92,24 @@ a{
   position: absolute;
   left: 0;
   top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-text-main{
   width: 40%;
-  margin: 0 auto;
-  margin-top: 20%;
-  position: relative;
+  //margin: 0 auto;
+ // margin-top: 20%;
+  //position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.text-home{
+/*.text-home{
   font-size: 35px;
-  margin: 0 auto;
-}
+  float: left;
+  border: 2px solid red;
+}*/
 
 .text-home1{
   width: 450px;
@@ -110,7 +117,6 @@ a{
   font-size: 35px;
   margin: 0 auto;
   margin-top: 8px;
-  //border: 2px solid red;
 }
 
 //service page media query
@@ -1252,18 +1258,19 @@ i{
     }
     .home-text-main{
       width: 75%;
-      margin: 0 auto;
-      margin-top: 200px;
-      position: relative;
+     // margin: 0 auto;
+      //margin-top: 200px;
+      //position: relative;
     }
-    .text-home{
+    /*.text-home{
       font-size: 30px;
       text-align: center;
-    }
+    }*/
     
     .text-home1{
       font-size: 23px;
-      text-align: start;
+      width: 300px;
+
     }
 
     
@@ -1281,7 +1288,7 @@ i{
     font-size: 18px;
     font-weight: 500;
     margin-left: -25px;
-    text-align: center;
+    margin: 0 auto;
     padding-top: 12px;
   }
   .service-heading{
@@ -2256,4 +2263,3 @@ padding-top: 30px;
      }  
 }
   
-
