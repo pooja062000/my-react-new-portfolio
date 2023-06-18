@@ -909,11 +909,11 @@ background-color: #b7b7c078;
   //border: 2px solid rgb(3, 255, 255);
 }
   .skills-colum{
-    width: 85%;
-    height: 367px;
+    width: 50%;
+    height: 450px;
     margin: 0 auto;
     margin-top: 70px;
-    //border: 2px solid red;
+   // border: 2px solid red;
   }
   .skill-border-main{
     width: 195px;
@@ -958,15 +958,16 @@ background-color: #b7b7c078;
   }
 .skills-col1{
   width: $width_full;
+  height: 80px;
   float: left;
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
-  //border: 2px solid white;
+  //border: 2px solid rgb(160, 227, 4);
 }
 
   .skills-box1{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
     //border: 2px solid $red;
@@ -998,7 +999,7 @@ background-color: #b7b7c078;
     color:#e7e2e2;
   }
   .skills-box2{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
     //border: 2px solid $red;
@@ -1013,8 +1014,17 @@ background-color: #b7b7c078;
     margin-top: 30px;
     background: linear-gradient(to right, #20c997 99%, #111418 1%); 
   }
+  .skill-colum2{
+    width: 100%;
+    height: 80px;
+    //border: 2px solid red;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
   .skills-box3{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
     //border: 2px solid $red;
@@ -1029,16 +1039,9 @@ background-color: #b7b7c078;
     margin-top: 30px;
     background: linear-gradient(to right, #20c997 90%, #111418 10%); 
   }
-  .skills-col2{
-  width: $width_full;
-  float: left;
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
-  //border: 2px solid white;
-  }
+
   .skills-box4{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
     //border: 2px solid $red;
@@ -1053,8 +1056,18 @@ background-color: #b7b7c078;
     margin-top: 30px;
     background: linear-gradient(to right, #20c997 95%, #111418 5%); 
   }
+  .skills-col3{
+    width: 100%;
+    height: 80px;
+   // border: 2px solid rgb(60, 15, 239);
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
   .skills-box5{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
    // border: 2px solid $red;
@@ -1070,7 +1083,7 @@ background-color: #b7b7c078;
     background: linear-gradient(to right, #20c997 96%, #111418 4%); 
   }
   .skills-box6{
-    width: 32%;
+    width: 48%;
     height: 100px;
     float: left;
     //border: 2px solid $red;
