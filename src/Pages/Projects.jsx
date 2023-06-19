@@ -29,7 +29,7 @@ function Projects(){
                        
                        <p  className='dev1'>Countdown Timer</p>
                        <NavLink to="https://profound-gelato-3f7008.netlify.app" className='gitlink1'>SEE MORE</NavLink>
-                 
+                
                     </div>
                     <div className='project-box2'>
                         <img src={dev} alt='dev' className='my-img2'/>
