@@ -30,7 +30,7 @@ function Skills(){
             <div className='skills-box3'>
                     <div className='skills-color'></div>
                     <div className='skills-text'>Bootstrap</div>
-                         <div className='numerb'>90%</div>
+                         <div className='numerb'>80%</div>
                         
                         <div className="skills-border3"></div>
                 
@@ -39,7 +39,7 @@ function Skills(){
                 
                 <div className='skills-color'></div>
                     <div className='skills-text'>JavaScript</div>
-                        <div className='numerb'>95%</div>
+                        <div className='numerb'>80%</div>
                         
                         <div className="skills-border4"></div>
                          </div>
@@ -49,7 +49,7 @@ function Skills(){
                    
                    <div className='skills-color'></div>
                        <div className='skills-text'>Jquery</div>
-                           <div className='numerb'>96%</div> 
+                           <div className='numerb'>90%</div> 
                            
                            <div className="skills-border5"></div>
                        </div>
@@ -57,7 +57,7 @@ function Skills(){
                            
                    <div className='skills-color'></div>
                        <div className='skills-text'>React JS</div>
-                           <div className='numerb'>50%</div>
+                           <div className='numerb'>70%</div>
                            
                            <div className="skills-border6"></div>
                        </div>

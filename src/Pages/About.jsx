@@ -1,7 +1,3 @@
-import { NavLink } from 'react-router-dom'
-import blogimg from '../Assets/Images/blo1.jpg'
-import blogimg2 from '../Assets/Images/blo2.jpg'
-import blogimg3 from '../Assets/Images/blo3.jpg'
 
 function About(){
     return(
@@ -18,6 +14,7 @@ function About(){
                     that leave a lasting impression. With a solid foundation in front-end development, I excel in HTML, CSS, and JavaScript,
                     creating seamless and responsive designs that adapt to different devices and screen sizes.I take pride in writing clean and efficient code, optimizing performance,
                      and ensuring a smooth user experience.  I create successful websites that are fast, easy to use, and built with best practices.
+                     Frontend Development course from  <a href="https://www.sundayschool.co.in/" className="sunday">Sunday School</a>
                     </p>
                <div className='educat'>My Education</div>
                     <div className='educ'>Degree: B.Sc</div>
@@ -60,10 +57,10 @@ function About(){
                   I have been thoroughly impressed with their dedication and passion for the field.</p>
               </div>
               </div>
-              <button className='clients-button'>Let's work together</button>
+              {/*<button className='clients-button'>Let's work together</button>*/}
               </div>
             </div>
-            <div className="blogs-row-main">
+           {/*<div className="blogs-row-main">
               <h2 className="blog-main-heading">Blogs</h2>
               <h4 className="blog-heading">Let's See My Work</h4>
               <div className='blog-border-main'>
@@ -98,7 +95,7 @@ function About(){
                 </div>
                 
               </div>
-              </div>
+    </div>*/}
       
         </>
     )

@@ -253,52 +253,6 @@ a{
 }
 
 
-.services-cont2{
-  width: 85%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-
-  .services-box5{
-    width: 23%;
-    height: 220px;
-    float: left;
-    margin-top: 20px;
-    padding-top: 25px;
-    border-radius: 11px;
-    background-color: #3333366e;
-  }
-  .services-box6{
-    width: 23%;
-    height: 220px;
-    float: left;
-    margin-top: 20px;
-    padding-top: 25px;
-    border-radius: 11px;
-    background-color: #3333366e;
-  }
-
-  .services-box7{
-    width: 23%;
-    height: 220px;
-    float: left;
-    margin-top: 20px;
-    padding-top: 25px;
-    border-radius: 11px;
-    background-color: #3333366e;
-  }
-
-  .services-box8{
-    width: 23%;
-    height: 220px;
-    float: left;
-    margin-top: 20px;
-    padding-top: 25px;
-    border-radius: 11px;
-    background-color: #3333366e;
-  }
-}
-
 // numbers row
 .numbers-row{
   width: $width_full;
@@ -368,6 +322,13 @@ background-color: #34343bdd;
     width: 63%;
     float: left;
     //border: 2px solid yellow;
+  }
+  .sunday{
+    font-size: 17px;
+  }
+
+  .sunday:hover{
+    color: red;
   }
 .about-heading{
   color: #e1e1e1e5;
@@ -1044,7 +1005,7 @@ background-color: #b7b7c078;
     //border: 2px solid rgb(160, 111, 19);
     margin-left: 35px;
     margin-top: 30px;
-    background: linear-gradient(to right, #20c997 90%, #111418 10%); 
+    background: linear-gradient(to right, #20c997 80%, #111418 20%); 
   }
 
   .skills-box4{
@@ -1061,7 +1022,7 @@ background-color: #b7b7c078;
     //border: 2px solid rgb(160, 111, 19);
     margin-left: 35px;
     margin-top: 30px;
-    background: linear-gradient(to right, #20c997 95%, #111418 5%); 
+    background: linear-gradient(to right, #20c997 80%, #111418 20%); 
   }
   .skills-col3{
     width: 100%;
@@ -1087,7 +1048,7 @@ background-color: #b7b7c078;
     //border: 2px solid rgb(160, 111, 19);
     margin-left: 35px;
     margin-top: 30px;
-    background: linear-gradient(to right, #20c997 96%, #111418 4%); 
+    background: linear-gradient(to right, #20c997 90%, #111418 10%); 
   }
   .skills-box6{
     width: 48%;
@@ -1103,7 +1064,7 @@ background-color: #b7b7c078;
     //border: 2px solid rgb(160, 111, 19);
     margin-left: 35px;
     margin-top: 30px;
-    background: linear-gradient(to right, #20c997 60%, #111418 40%); 
+    background: linear-gradient(to right, #20c997 70%, #111418 30%); 
   }
 
 
