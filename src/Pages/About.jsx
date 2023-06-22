@@ -14,7 +14,7 @@ function About(){
                     that leave a lasting impression. With a solid foundation in front-end development, I excel in HTML, CSS, and JavaScript,
                     creating seamless and responsive designs that adapt to different devices and screen sizes.I take pride in writing clean and efficient code, optimizing performance,
                      and ensuring a smooth user experience.  I create successful websites that are fast, easy to use, and built with best practices.
-                     Frontend Development course from  <a href="https://www.sundayschool.co.in/" className="sunday">Sunday School</a>
+                     Frontend Development course from  <a href="https://www.sundayschool.co.in/" className="sunday" target="blank">Sunday School</a>
                     </p>
                <div className='educat'>My Education</div>
                     <div className='educ'>Degree: B.Sc</div>
