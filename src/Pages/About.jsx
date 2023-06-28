@@ -21,6 +21,7 @@ function About(){
                     <div className='educ1'>Email : poojawebdeveloper2023@gmail.com</div>
 
                     <button className='butt1'>DOWNLOAD CV</button>
+                  
                 </div>
 
                 <div className='about-box2'>

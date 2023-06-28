@@ -32,21 +32,56 @@ function Projects(){
                     
  					
                     </div>
-                    <div className='project-box2'>
-                        <img src={dev} alt='dev' className='my-img2'/>
+                    <div className='project-box1'>
+                        <img src={dev} alt='dev' className='my-img1'/>
                         
                   <p  className='dev1'>Developer</p>
                        <NavLink to="https://github.com/pooja062000/developer" className='gitlink1' target='blank'>SEE MORE</NavLink>
                     </div>
-                    <div className='project-box3'>
-                        <img src={subcribe} alt='subcribe' className='my-img3'/>
+                    <div className='project-box1'>
+                        <img src={subcribe} alt='subcribe' className='my-img1'/>
                         
                        <p  className='dev1'>Subscription</p>
                        <NavLink to="https://github.com/pooja062000/subscription" className='gitlink1' target='blank'>SEE MORE</NavLink>
                     </div>
+                    <div className='project-box1'>
+                    <img src={wheather} alt='wheather' className='my-img1'/>
+                    <p  className='dev1'>Wheater-app</p>
+                       <NavLink to="https://github.com/pooja062000/wheater-app" className='gitlink1' target='blank'>SEE MORE</NavLink>
+                </div>
+                    <div className='project-box1'>
+                        <img src={digital} alt='digital' className='my-img1'/>
+                    <p  className='dev1'>Digital-clock</p>
+                       <NavLink to="https://github.com/pooja062000/javascript-digital-clock" className='gitlink1' target='blank'>SEE MORE</NavLink>
+                    </div>
+                    <div className='project-box1'>
+                    <img src={slider} alt='slider' className='my-img1' />    
+                    
+                    <p  className='dev1'>Slick-slider</p>
+                       <NavLink to="https://github.com/pooja062000/slick-carousal"className='gitlink1' target='blank'>SEE MORE</NavLink>
+                    </div>
+                    <div className='project-box1'>
+                    <img src={ice} alt='ice' className='my-img1' />
+                    
+                    <p  className='dev1'>Zomato</p>
+                       <NavLink to="https://github.com/pooja062000/single-page-zomato"className='gitlink1' target='blank'>SEE MORE</NavLink>
+                </div>
+                    <div className='project-box1'>
+                        <img src={laptop} alt='laptop' className='my-img1' />
+                        
+                    <p  className='dev1'>My Portfolio</p>
+                       <NavLink to="https://github.com/pooja062000/My-portfolio"className='gitlink1' target='blank'>SEE MORE</NavLink>
+                    </div>
+                    <div className='project-box1'>
+                    <img  src={shirst} alt='shirst' className='my-img1' />
+                    
+                    <p  className='dev1'>Product-list</p>
+                       <NavLink to="https://github.com/pooja062000/Product-List1"className='gitlink1' target='blank'>SEE MORE</NavLink>   
+                    </div>  
+  
                 </div>
 
-                <div className='project-colum2'>
+                {/*<div className='project-colum2'>
                 <div className='project-box4'>
                     <img src={wheather} alt='wheather' className='my-img4'/>
                     <p  className='dev1'>Wheater-app</p>
@@ -63,7 +98,7 @@ function Projects(){
                     <p  className='dev1'>Slick-slider</p>
                        <NavLink to="https://github.com/pooja062000/slick-carousal"className='gitlink1' target='blank'>SEE MORE</NavLink>
                     </div>  
-                </div>
+    </div>
                 
                 <div className='project-colum3'>
                     
@@ -84,10 +119,10 @@ function Projects(){
                     
                     <p  className='dev1'>Product-list</p>
                        <NavLink to="https://github.com/pooja062000/Product-List1"className='gitlink1' target='blank'>SEE MORE</NavLink>   
-                    </div>  
+                    </div> 
 
 
-            </div>
+            </div> */}
         </div>
         </div>
         </>

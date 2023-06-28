@@ -111,8 +111,8 @@ function Home(){
         <h4 className="numbe-text">Clients Served</h4> 
         </div>    
         </div>    
-        </div>  
-    
+        
+    </div>
           
 
         </>

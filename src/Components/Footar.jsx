@@ -1,9 +1,13 @@
+
+
 function Footar(){
     return(
         <>
        <div className="footar-main-row">
         <div className="footar-colum">
-            <h5 className="footar-line">Made in React.js By Pooja Mittal</h5>
+            
+        
+            <a href="https://react.dev/" target="blank">Made in React.js By Pooja Mittal</a>
             
         </div>
        </div>
