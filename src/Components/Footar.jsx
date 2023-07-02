@@ -7,7 +7,7 @@ function Footar(){
         <div className="footar-colum">
             
         
-            <a href="https://react.dev/" target="blank">Made in React.js By Pooja Mittal</a>
+            <a href="https://react.dev/" target="blank" className="foo-text">Made in React.js By Pooja Mittal</a>
             
         </div>
        </div>
