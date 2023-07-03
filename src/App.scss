@@ -7890,3 +7890,1243 @@ padding-top: 30px;
     margin-top: 80px;
   }
 }
+
+@media screen and (min-width: 951px) and (max-width: 1000px){
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    width: 30%;
+    height: 65px;
+    float: left;
+    color: #e7e2e2 !important;
+    padding-top: 19px;
+    padding-right: 96px;
+    font-size: 19px;
+  }
+  .navbarr{
+    width: 75%;
+    height: 50px;
+    padding-top: 4px;
+    margin-top: 0px;
+    float: right;
+   margin-top: -53px; 
+   padding-left: 30%;
+  }
+  a{
+    font-size: 19px;
+  padding-left: 3px; 
+  }
+  
+  .home-text-main{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    position: relative;
+  }
+  .text-home1{
+    width: 32
+    0px;
+    font-size: 29px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .banner{
+    width: 100%;
+    float: left;
+    background-image: url('../src/Assets/Images/homebanner.jpg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .services-row{
+    width: 100%;
+    float: left;
+   
+  .servies-cont{ 
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sevice-heading{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #e7e2e2;
+    padding-top: 5px;
+  }
+  .favicon-icon{
+    font-size: 16px;
+  }
+  i{
+    font-size: 30px;
+  }
+}
+.numbers-row{
+  width: $width_full;
+  float: left;
+}
+.numbers-colum{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  }
+  .numbe-text{
+    font-size: 16.33px;
+    padding-top: 13px;
+  }
+  .about-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  
+  .about-main-colum{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+}
+.testmonial-row{
+  width: $width_full;
+  float: left;
+}
+.testmonial-main-col{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+  .testm-heading{
+    font-size: 19px;
+  }
+  .custor{
+    font-size: 23px;
+  }
+  .clients-main-col{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .clients-text{
+    font-size: 17.33px;
+    //margin: 13px;
+    text-align: justify;
+    padding-left: 11px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    color: #e7e2e2;
+  }
+  .skills-row-main{
+    width: $width_full;
+    height: 554px;
+    float: left;
+    margin-top: 69px;
+  }
+  .skills-colum{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .skill-border-main{
+    width: 153px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .skill-border{
+    width: 60px;
+    height: 4px;
+    margin-top: 5px;
+    float: left;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+
+  .skill-border1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #20c997;
+    //margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #20c997;
+  }
+  .skill-border2{
+    width: 60px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+  .skill-heading{
+    color:#e7e2e2;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .skills-col1{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-left: 38px;
+  }
+  .skills-text{
+    color:#e7e2e2;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-left: 30px;
+  }
+  .numerb{
+    font-size: 17px;
+    text-align: right;
+    //margin-top: -25px;
+    color:#e7e2e2;
+  }
+  .skill-colum2{
+    width: 90%;
+    height: 55px;
+    float: left;
+    //margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 38px;
+  }
+  .skills-col3{
+    width: 90%;
+    height: 120px;
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 38px;
+  }
+    .skills-col5{
+      width: 90%;
+      height: 80px;
+      margin: 0 auto;
+      //margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+}
+.skills-box7{
+  width: 49%;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: -21px;
+  margin-top: -39px;
+
+}
+.skills-box8{
+  width: 49%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: -39px;
+}
+.project-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+}
+.project-col{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-heading{
+  width: 500px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+ // margin-top: 0px; 
+}
+.proj-head2{
+  width: 813px;
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.project-border-main{
+  margin-top: 19px;
+}
+.project-final-box{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+
+.contact-colum{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+}
+.map-row{
+  width: 100%;
+}
+.map-colum{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px){
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    width: 30%;
+    height: 65px;
+    float: left;
+    color: #e7e2e2 !important;
+    padding-top: 19px;
+    padding-right: 96px;
+    font-size: 19px;
+  }
+  .navbarr{
+    width: 75%;
+    height: 50px;
+    padding-top: 4px;
+    margin-top: 0px;
+    float: right;
+   margin-top: -53px; 
+   padding-left: 30%;
+  }
+  a{
+    font-size: 19px;
+  padding-left: 3px; 
+  }
+  .services-row{
+    width: 100%;
+    float: left;
+   
+  .servies-cont{ 
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sevice-heading{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #e7e2e2;
+    padding-top: 5px;
+  }
+  .favicon-icon{
+    font-size: 17px;
+  }
+  i{
+    font-size: 30px;
+  }
+}
+.numbers-row{
+  width: $width_full;
+  float: left;
+}
+.numbers-colum{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  }
+  .numbe-text{
+    font-size: 16.33px;
+    padding-top: 13px;
+  }
+  .about-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  
+  .about-main-colum{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .about-text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .educat {
+    font-weight: 300;
+}
+.educ {
+  font-weight: 300;
+}
+.educ1{
+  font-weight: 300;
+}
+}
+.testmonial-row{
+  width: $width_full;
+  float: left;
+}
+.testmonial-main-col{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+  .testm-heading{
+    font-size: 19px;
+  }
+  .custor{
+    font-size: 23px;
+  }
+  .clients-main-col{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  h1{
+    font-weight: 400;
+  }
+  .clients-text{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #e7e2e2;
+  }
+  .skills-row-main{
+    width: $width_full;
+    height: 554px;
+    float: left;
+    margin-top: 69px;
+  }
+  .skills-colum{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .skill-border-main{
+    width: 153px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .skill-border{
+    width: 60px;
+    height: 4px;
+    margin-top: 5px;
+    float: left;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+
+  .skill-border1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #20c997;
+    //margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #20c997;
+  }
+  .skill-border2{
+    width: 60px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+  .skill-heading{
+    color:#e7e2e2;
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .skills-col1{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-left: 14px;
+  }
+  .skill-colum2{
+    width: 95%;
+    height: 55px;
+    float: left;
+    //margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14px;
+  }
+  .skills-col3{
+    width: 95%;
+    height: 120px;
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 14px;
+  }
+  .skills-col5{
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-box7{
+  width: 49%;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: -10px;
+  margin-top: -39px;
+
+}
+.skills-box8{
+  width: 49%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: -39px;
+  margin-left: 15px;
+}
+.project-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+}
+.project-col{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-heading{
+  width: 500px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+ // margin-top: 0px; 
+}
+.proj-head2{
+  width: 813px;
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.project-border-main{
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 19px;
+}
+.project-border {
+  width: 80px;
+  height: 4px;
+  float: left;
+  background-color: #20c997;
+  margin-left: 27%;
+  border: 2px solid #20c997;
+}
+.project-border1 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  color: #20c997;
+  float: left;
+  margin-left: 5px;
+  background-color: #20c997;
+}
+.project-final-box{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+
+.contact-colum{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+}
+.map-row{
+  width: 100%;
+}
+.map-colum{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    width: 30%;
+    height: 65px;
+    float: left;
+    color: #e7e2e2 !important;
+    padding-top: 19px;
+    padding-right: 96px;
+    font-size: 19px;
+  }
+  .navbarr{
+    width: 75%;
+    height: 50px;
+    padding-top: 4px;
+    margin-top: 0px;
+    float: right;
+   margin-top: -53px; 
+   padding-left: 30%;
+  }
+  a{
+    font-size: 19px;
+  padding-left: 3px; 
+  }
+  .home-text-main{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    position: relative;
+  }
+  .text-home1{
+    width: 32;
+    font-size: 29px;
+    margin-top: 10px;
+    margin: 0 auto;
+  }
+  .banner{
+    width: 100%;
+    float: left;
+    background-image: url('../src/Assets/Images/homebanner.jpg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .services-row{
+    width: 100%;
+    float: left;
+   
+  .servies-cont{ 
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sevice-heading{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #e7e2e2;
+    padding-top: 5px;
+  }
+  .favicon-icon{
+    font-size: 17px;
+  }
+  i{
+    font-size: 33px;
+  }
+}
+.numbers-row{
+  width: $width_full;
+  float: left;
+}
+.numbers-colum{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  }
+  .numbe-text{
+    font-size: 16.33px;
+    padding-top: 13px;
+  }
+  .about-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  
+  .about-main-colum{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .about-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+}
+.testmonial-row{
+  width: $width_full;
+  float: left;
+}
+.testmonial-main-col{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+  .testm-heading{
+    font-size: 19px;
+  }
+  .custor{
+    font-size: 23px;
+  }
+  .clients-main-col{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  h1{
+    font-weight: 400;
+  }
+  .clients-text{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #e7e2e2;
+  }
+  .skills-row-main{
+    width: $width_full;
+    height: 554px;
+    float: left;
+    margin-top: 69px;
+  }
+  .skills-colum{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .skill-border-main{
+    width: 153px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .skill-border{
+    width: 60px;
+    height: 4px;
+    margin-top: 5px;
+    float: left;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+
+  .skill-border1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #20c997;
+    //margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #20c997;
+  }
+  .skill-border2{
+    width: 60px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+  .skill-heading{
+    color:#e7e2e2;
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .skills-col1{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-left: 14px;
+  }
+  .skill-colum2{
+    width: 95%;
+    height: 55px;
+    float: left;
+    //margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14px;
+  }
+  .skills-col3{
+    width: 95%;
+    height: 120px;
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 14px;
+  }
+  .numerb {
+    font-size: 18px;
+    text-align: right;
+    margin-top: -25px;
+    color: #e7e2e2;
+}
+.skills-col5{
+  width: 95%;
+  height: 120px;
+  float: left;
+  margin-top: 5px;
+  display: flex;
+  margin-top: -34px;
+  margin-left: 14px;
+  flex-wrap: wrap;
+}
+.project-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+}
+.project-col{
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.proj-heading{
+  width: 500px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+ // margin-top: 0px; 
+}
+.proj-head2{
+  width: 100%;
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.project-border-main{
+  margin-top: 19px;
+}
+.project-final-box{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+
+.contact-colum{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+}
+.map-row{
+  width: 100%;
+}
+.map-colum{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px){
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    width: 30%;
+    height: 65px;
+    float: left;
+    color: #e7e2e2 !important;
+    padding-top: 20px;
+    padding-right: 96px;
+    font-size: 19px;
+  }
+  .navbarr{
+    width: 75%;
+    height: 50px;
+    padding-top: 4px;
+    margin-top: 0px;
+    float: right;
+   margin-top: -53px; 
+   padding-left: 30%;
+  }
+  a{
+    font-size: 20px;
+  padding-left: 7px; 
+  }
+  .home-text-main{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    position: relative;
+    margin-left: 50px;
+  }
+  .text-home1{
+    width: 32;
+    font-size: 29px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .banner{
+    width: 100%;
+    float: left;
+    background-image: url('../src/Assets/Images/homebanner.jpg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .services-row{
+    width: 100%;
+    float: left;
+   
+  .servies-cont{ 
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sevice-heading{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #e7e2e2;
+    padding-top: 5px;
+  }
+  .favicon-icon{
+    font-size: 17.33px;
+  }
+  i{
+    font-size: 35px;
+  }
+}
+.numbers-row{
+  width: $width_full;
+  float: left;
+}
+.numbers-colum{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  }
+  .numbe-text{
+    font-size: 16.33px;
+    padding-top: 13px;
+  }
+  .about-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  
+  .about-main-colum{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .about-text{
+    font-size: 17px;
+  }
+}
+.testmonial-row{
+  width: $width_full;
+  float: left;
+}
+.testmonial-main-col{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+  .testm-heading{
+    font-size: 19px;
+  }
+  .custor{
+    font-size: 23px;
+  }
+  .clients-main-col{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .clients-text{
+    font-size: 17.33px;
+    //margin: 13px;
+    text-align: justify;
+    padding-left: 11px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    color: #e7e2e2;
+  }
+  .skills-row-main{
+    width: $width_full;
+    height: 554px;
+    float: left;
+    margin-top: 69px;
+  }
+  .skills-colum{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .skill-border-main{
+    width: 153px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  .skill-border{
+    width: 60px;
+    height: 4px;
+    margin-top: 5px;
+    float: left;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+
+  .skill-border1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #20c997;
+    //margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #20c997;
+  }
+  .skill-border2{
+    width: 60px;
+    height: 4px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #20c997;
+    border: 2px solid #20c997;
+  }
+  .skill-heading{
+    color:#e7e2e2;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .skills-col1{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-left: 38px;
+  }
+  .skills-text{
+    color:#e7e2e2;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-left: 30px;
+  }
+  .numerb{
+    font-size: 17px;
+    text-align: right;
+    //margin-top: -25px;
+    color:#e7e2e2;
+  }
+  .skill-colum2{
+    width: 90%;
+    height: 55px;
+    float: left;
+    //margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 38px;
+  }
+  .skills-col3{
+    width: 90%;
+    height: 120px;
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 38px;
+  }
+    .skills-col5{
+      width: 90%;
+      height: 80px;
+      margin: 0 auto;
+      //margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+}
+.skills-box7{
+  width: 48%;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: -21px;
+  margin-top: -39px;
+
+}
+.skills-box8{
+  width: 48%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: -39px;
+}
+.project-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+}
+.project-col{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-heading{
+  width: 100%;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+ // margin-top: 0px; 
+}
+.proj-head2{
+  width: 100%;
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.project-border-main{
+  margin-top: 19px;
+}
+.project-final-box{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-main-row{
+  width: $width_full;
+  float: left;
+  margin-top: 69px;
+
+.contact-colum{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+}
+.map-row{
+  width: 100%;
+}
+.map-colum{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+}
