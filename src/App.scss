@@ -9128,5 +9128,180 @@ padding-top: 30px;
   margin: 0 auto;
   margin-top: 80px;
 }
+}
 
+
+@media screen and (min-width: 1301px) and (max-width: 1400px){
+  .header-row{
+    width: 100%;
+    position: fixed;
+  }
+  .logo{
+    width: 30%;
+    height: 65px;
+    float: left;
+    color: #e7e2e2 !important;
+    padding-top: 20px;
+    padding-right: 96px;
+    font-size: 19px;
+  }
+  .navbarr{
+    width: 75%;
+    height: 50px;
+    padding-top: 4px;
+    margin-top: 0px;
+    float: right;
+   margin-top: -53px; 
+   padding-left: 30%;
+  }
+  a{
+    font-size: 20px;
+  padding-left: 16px; 
+  }
+  .home-text-main{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    position: relative;
+    margin-left: 50px;
+  }
+  .text-home1{
+    width: 500px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .banner{
+    width: 100%;
+    float: left;
+    background-image: url('../src/Assets/Images/homebanner.jpg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .services-row{
+    width: 100%;
+    float: left;
+   
+  .servies-cont{ 
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .sevice-heading{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .service-heading{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 23px;
+    color: #e7e2e2;
+    padding-top: 5px;
+  }
+  .favicon-icon{
+    font-size: 18px;
+  }
+  i{
+    font-size: 38px;
+  }
+}
+.numbers-row{
+  width: $width_full;
+  float: left;
+}
+.numbers-colum{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  }
+
+  .number-box1{
+    width: 23%;
+    height: 170px;
+    float: left;
+    border-radius: 8px;
+    background-color: #3333366e;
+  }
+  .numbe-text{
+    font-size: 17px;
+    padding-top: 13px;
+  }
+  .number-box2{
+    width: 23%;
+    float: left;
+    margin-top: px;
+    border-radius: 8px;
+    background-color: #3333366e;
+  }
+  .number-box3{
+    width: 23%;
+    float: left;
+    margin-top: 0px;
+    border-radius: 8px;
+    background-color: #3333366e;
+  }
+  .number-box4{
+    width: 23%;
+    margin-top: 0px;
+    float: left;
+    border-radius: 8px;
+    background-color: #3333366e;
+  }
+  .about-row{
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+  
+  .about-main-colum{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  .sunday {
+    font-size: 20px;
+}
+.about-text{
+  font-size: 21px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.imgabout {
+  width: 100%;
+  height: 523.7px;
+ 
+}
+}
+.testmonial-row{
+  width: $width_full;
+  float: left;
+}
+.testmonial-main-col{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 70px;
+  }
+  .testm-heading{
+    font-size: 23px;
+  }
+  .custor{
+    font-size: 26px;
+  }
+  .clients-main-col{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
 }
