@@ -1,4 +1,6 @@
 
+import resume from '../Assets/pooja-resume.pdf'
+
 function About(){
     return(
 
@@ -20,8 +22,8 @@ function About(){
                     <div className='educ'>Degree: B.Sc</div>
                     <div className='educ1'>Email : poojawebdeveloper2023@gmail.com</div>
 
-                    <button className='butt1'>DOWNLOAD CV</button>
-                  
+                    {/*<button className='butt1'>DOWNLOAD CV</button>*/}
+                    <a href={resume} className='butt1'>Download Resume</a>
                 </div>
 
                 <div className='about-box2'>
@@ -46,57 +48,20 @@ function About(){
               <div className='clients-box1'>
                 
                 <h1>Clients</h1>
-                <p className='clients-text'>I have had the opportunity to work with Pooja on several projects and 
-                  I have been thoroughly impressed with their dedication and passion for the field.</p>
+                <p className='clients-text'>As a project manager overseeing multiple web development initiatives, I had the pleasure of working with Pooja on a critical project, and I am
+                 thrilled to provide this testimonial for their outstanding work. - Neha Yadav</p>
               </div>
               <div className='clients-box2'>
                 
               <div className='clients-color'></div>
                 <h1>Clients</h1>
                 
-                <p className='clients-text'>I have had the opportunity to work with Pooja on several projects and 
-                  I have been thoroughly impressed with their dedication and passion for the field.</p>
+                <p className='clients-text'>Pooja is an exceptionally talented and skilled frontend developer. From the moment they joined our team, it was evident that they possess an in-depth understanding of modern web technologies and a keen eye for design aesthetics. -Dinesh Kumar</p>
               </div>
               </div>
-              {/*<button className='clients-button'>Let's work together</button>*/}
               </div>
             </div>
-           {/*<div className="blogs-row-main">
-              <h2 className="blog-main-heading">Blogs</h2>
-              <h4 className="blog-heading">Let's See My Work</h4>
-              <div className='blog-border-main'>
-            <div className='blog-border'></div>
-            <div className='blog-border1'></div>
-            <div className='blog-border1'></div>
-            <div className='blog-border2'></div>
-            </div>
-              <div className="my-bolgs-colum">
-                <div className="blogs-box1">
-                  <img src={blogimg} alt="blogimg" className='bloimg1'/>
-                  
-                  <NavLink to="https://techcrunch.com/" className="design-blog2">What has happened  to all of the Design ideas</NavLink>
-            
-                <h3 className="blog-date">October 15th, 2022</h3>
-                </div>
-               
-                <div className="blogs-box2">
-                <img src={blogimg2} alt="blogimg2" className='bloimg1'/>
-        
-               <NavLink to="https://www.itproportal.com/" className="design-blog2">The  Best Sale Marketer Of The Next Year</NavLink>
-               
-                <h3 className="blog-date">November 18th, 2022</h3>
-                </div>
-                <div className="blogs-box3">
-                  
-                <img src={blogimg3} alt="blogimg3" className='bloimg1'/>
-               
-               <NavLink to="https://www.itproportal.com/" className="design-blog2">What gets in the way of the greate Stategy</NavLink>
-            
-               <h3 className="blog-date">November 25th, 2022</h3>
-                </div>
-                
-              </div>
-    </div>*/}
+           
       
         </>
     )

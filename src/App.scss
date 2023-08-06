@@ -48,15 +48,25 @@ a{
   background-color: $color;
   position: fixed;
 }
-  .logo{
+  .mylogo{
     width: 25%;
     height: 65px;
     float: left;
     color: #e7e2e2 !important;
     padding-top: 15px;
-    font-size: 23px;
+    background-image: url('../src/Assets/Images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
   }
 
+  .mylogo:hover{
+    color: #20c997;
+    background-color: #20c997;
+  }
+  .logo1{
+    font-size: 20px;
+  }
   .navbarr{
     width: 45%;
     height: 65px;
@@ -488,14 +498,7 @@ margin-top: 70px;
   height: 230px;
   border: 2px solid gray;
 }
-/*.clients-color{
-  width: 35px;
-  height: 35px;
-  background-color: #20c997;;
-  border-radius: 50px;
-  margin-left: 30px;
-  margin-top: 20px;
-}*/
+
 h1{
   color: #e7e2e2;
   font-size: 20px;
@@ -631,23 +634,19 @@ justify-content: center;
   font-weight: 400;
   padding-top: 5px;
 }
-
 // skills page
-
 .skills-row-main{
   width: $width_full;
   height: 600px;
   float: left;
   margin-top: 69px;
   background-color: rgba(52, 52, 59, 0.9882352941);
-  //border: 2px solid rgb(3, 255, 255);
 }
   .skills-colum{
     width: 50%;
     height: 450px;
     margin: 0 auto;
     margin-top: 70px;
-   // border: 2px solid red;
   }
   .skill-border-main{
     width: 195px;
@@ -664,7 +663,11 @@ justify-content: center;
     background-color: #20c997;
     border: 2px solid #20c997;
   }
-
+.logo1{
+  width: 200px;
+  font-size: 20px;
+  
+}
   .skill-border1{
     width: 6px;
     height: 6px;
@@ -990,7 +993,7 @@ i{
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     display: none;
   }
   .navbarr{
@@ -1714,7 +1717,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     display: none;
   }
   .navbarr{
@@ -1982,7 +1985,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
 .testmonial-row{
   width: $width_full;
   float: left;
-  height: 674px;
+  height: 710px;
 }
 .testmonial-main-col{
   width: 90%;
@@ -2024,6 +2027,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
   }
   .clients-box2{
     width: 100%;
+    height: 243px;
     float: left;
     margin-top: 30px;
   }
@@ -2387,7 +2391,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -2629,7 +2633,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     .testmonial-row{
       width: $width_full;
       float: left;
-      height: 678px;
+      height: 712px;
     }
     .testmonial-main-col{
       width: 85%;
@@ -2671,6 +2675,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
       }
       .clients-box2{
         width: 100%;
+        height: 245px;
         float: left;
         margin-top: 30px;
       }
@@ -2750,91 +2755,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
         width: 100%;
         height: 260px;
       }
-      .project-box3{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img3{
-        width: 100%;
-        height: 260px;
-      }
-      .project-colum2{
-        width: $width_full;
-        float: left;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .project-box4{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img4{
-        width: 100%;
-        height: 260px;
-        border-radius: 4px;
-      }
-      .project-box5{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img5{
-        width: 100%;
-        height: 260px;
-      }
-      .project-box6{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img6{
-        width: 100%;
-        height: 260px;
-      }
-      .project-colum3{
-        width: $width_full;
-        float: left;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .project-box7{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img7{
-        width: 100%;
-        height: 260px;
-      }
-      .project-box8{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img8{
-        width: 100%;
-        height: 260px;
-      }
-      .project-box9{
-        width: 100%;
-        height: 360px;
-        float: left;
-        margin-top: 25px;
-      }
-      .my-img9{
-        width: 100%;
-        height: 260px;
-      }
-
-
+     
       .skills-row-main{
         width: $width_full;
         height: 727px;
@@ -3125,13 +3046,14 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
     color: #e7e2e2 !important;
     padding-top: 22px;
     font-size: 16px;
+    
   }
   .navbarr{
     width: 75%;
@@ -3301,12 +3223,12 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
         text-align: justify;
       }
       .about-text{
-        font-size: 19px;
+        font-size: 20px;
         text-align: justify;
         padding-top: 20px;
         font-weight: 300;
         letter-spacing: 0.2px;
-        line-height: 28px;
+        line-height: 29px;
         padding-right: 20px;
         }
         .educat{
@@ -3362,6 +3284,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     }
     .testmonial-row{
       width: $width_full;
+      height: 725px;
       float: left;
     }
     .testmonial-main-col{
@@ -3390,12 +3313,12 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
         letter-spacing: 1px;
         margin-left: 29px;
         padding-top: 10px;
-        font-size: 21px;
+        font-size: 22px;
         font-weight: 300;
         text-align: justify;
       }
       .clients-text{
-        font-size: 18px;
+        font-size: 19.33px;
         //margin: 13px;
         text-align: justify;
         padding-left: 10px;
@@ -3406,6 +3329,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
       }
       .clients-box2{
         width: 100%;
+        height: 255px;
         float: left;
         margin-top: 30px;
       }
@@ -3762,7 +3686,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -3937,12 +3861,12 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
       text-align: justify;
     }
     .about-text{
-      font-size: 19px;
+      font-size: 20px;
       text-align: justify;
       padding-top: 20px;
       font-weight: 300;
       letter-spacing: 0.2px;
-      line-height: 27px;
+      line-height: 28px;
       padding-right: 20px;
       }
       .educat{
@@ -3998,6 +3922,7 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
   }  
   .testmonial-row{
     width: $width_full;
+    height: 724px;
     float: left;
   }
   .testmonial-main-col{
@@ -4026,22 +3951,23 @@ background: linear-gradient(to right, #20c997 80%, #111418 20%);
       letter-spacing: 1px;
       margin-left: 29px;
       padding-top: 10px;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 300;
       text-align: justify;
     }
     .clients-text{
-      font-size: 18px;
+      font-size: 19.33px;
       //margin: 13px;
       text-align: justify;
       padding-left: 10px;
-      line-height: 27px;
+      line-height: 28px;
       font-weight: 300;
       letter-spacing: 0.1px;
       color: #e7e2e2;
     }
     .clients-box2{
       width: 100%;
+      height: 262px;
       float: left;
       margin-top: 30px;
     }  
@@ -4390,7 +4316,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -4551,12 +4477,12 @@ padding-top: 30px;
       text-align: justify;
     }
     .about-text{
-      font-size: 19px;
+      font-size: 20px;
       text-align: justify;
       padding-top: 20px;
       font-weight: 300;
       letter-spacing: 0.2px;
-      line-height: 27px;
+      line-height: 28px;
       padding-right: 20px;
       }
       .educat{
@@ -4611,6 +4537,7 @@ padding-top: 30px;
   }
   .testmonial-row{
     width: $width_full;
+    height: 725px;
     float: left;
   }
   .testmonial-main-col{
@@ -4644,17 +4571,18 @@ padding-top: 30px;
       text-align: justify;
     }
     .clients-text{
-      font-size: 19px;
+      font-size: 19.33px;
       //margin: 13px;
       text-align: justify;
       padding-left: 10px;
-      line-height: 26px;
+      line-height: 27px;
       font-weight: 300;
       letter-spacing: 0.1px;
       color: #e7e2e2;
     }
     .clients-box2{
       width: 100%;
+      height: 256px;
       float: left;
       margin-top: 30px;
     } 
@@ -4929,99 +4857,7 @@ padding-top: 30px;
     font-size: 14px;
     padding-top: 30px;
     }
-    .project-box2{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img2{
-      width: 100%;
-      height: 260px;
-    }
-    .project-box3{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img3{
-      width: 100%;
-      height: 260px;
-    }
-    .project-colum2{
-      width: $width_full;
-      float: left;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .project-box4{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img4{
-      width: 100%;
-      height: 260px;
-      border-radius: 4px;
-    }
-    .project-box5{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img5{
-      width: 100%;
-      height: 260px;
-    }
-    .project-box6{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img6{
-      width: 100%;
-      height: 260px;
-    }
-    .project-colum3{
-      width: $width_full;
-      float: left;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .project-box7{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img7{
-      width: 100%;
-      height: 260px;
-    }
-    .project-box8{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img8{
-      width: 100%;
-      height: 260px;
-    }
-    .project-box9{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img9{
-      width: 100%;
-      height: 260px;
-    }
+   
     .contact-main-row{
       width: $width_full;
       float: left;
@@ -5086,7 +4922,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -5258,12 +5094,12 @@ padding-top: 30px;
       text-align: justify;
     }
     .about-text{
-      font-size: 19.33px;
+      font-size: 20px;
       text-align: justify;
       padding-top: 20px;
       font-weight: 300;
       letter-spacing: 0.2px;
-      line-height: 27px;
+      line-height: 28px;
       padding-right: 20px;
       }
       .educat{
@@ -5339,16 +5175,16 @@ padding-top: 30px;
       letter-spacing: 1px;
       margin-left: 29px;
       padding-top: 10px;
-      font-size: 21px;
+      font-size: 22px;
       font-weight: 300;
       text-align: justify;
     }
     .clients-text{
-      font-size: 19px;
+      font-size: 20px;
       //margin: 13px;
       text-align: justify;
       padding-left: 10px;
-      line-height: 26px;
+      line-height: 27px;
       font-weight: 300;
       letter-spacing: 0.1px;
       color: #e7e2e2;
@@ -5640,18 +5476,6 @@ padding-top: 30px;
       width: 100%;
       height: 260px;
     }
-
-    .project-box3{
-      width: 100%;
-      height: 360px;
-      float: left;
-      margin-top: 25px;
-    }
-    .my-img3{
-      width: 100%;
-      height: 260px;
-    }
-
     .contact-main-row{
       width: $width_full;
       float: left;
@@ -5717,7 +5541,7 @@ padding-top: 30px;
     position: fixed;
     margin: 0 auto;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -6342,7 +6166,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     margin: 0 auto;
@@ -6953,15 +6777,13 @@ padding-top: 30px;
       margin-top: 80px;
     }
 }
-
-
 @media screen and (min-width: 801px) and (max-width: 850px){
   .header-row{
     width: 100%;
     position: fixed;
     margin: 0 auto;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -7408,7 +7230,7 @@ padding-top: 30px;
     position: fixed;
     margin: 0 auto;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -7758,7 +7580,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -8081,7 +7903,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -8398,7 +8220,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -8515,13 +8337,14 @@ padding-top: 30px;
   }
   h1{
     font-weight: 400;
+    margin-left: 27px;
     font-size: 20px;
   }
   .clients-text{
-    font-size: 19.33px;
+    font-size: 20px;
     text-align: justify;
     padding-left: 10px;
-    line-height: 26px;
+    line-height: 27px;
     font-weight: 300;
     letter-spacing: 0.2px;
     color: #e7e2e2;
@@ -8712,7 +8535,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -8842,12 +8665,13 @@ padding-top: 30px;
   }
   h1{
     font-weight: 400;
+    margin-left: 27px;
   }
   .clients-text{
-    font-size: 19px;
+    font-size: 20px;
     text-align: justify;
     padding-left: 10px;
-    line-height: 27px;
+    line-height: 28px;
     font-weight: 300;
     letter-spacing: 0.2px;
     color: #e7e2e2;
@@ -9010,7 +8834,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -9329,7 +9153,7 @@ padding-top: 30px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 30%;
     height: 65px;
     float: left;
@@ -9452,7 +9276,12 @@ padding-top: 30px;
     width: 100%;
     float: left;
     margin-top: 69px;
-  
+    .about-heading{
+      font-size: 18px;
+    }
+    .about-textin {
+      font-size: 32px;
+    }
   .about-main-colum{
     width: 90%;
     margin: 0 auto;
@@ -9464,9 +9293,11 @@ padding-top: 30px;
     font-size: 20px;
 }
 .about-text{
-  font-size: 21px;
+  font-size: 25px;
   margin-top: 15px;
   font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0.2px;
 }
 
 .imgabout {
@@ -9474,10 +9305,10 @@ padding-top: 30px;
   height: 523.7px;
 }
 .educ1 {
-  font-size: 18px;
+  font-size: 19px;
 }
 .educ {
-  font-size: 18px;
+  font-size: 19px;
 }
 }
 .testmonial-row{
@@ -9505,7 +9336,7 @@ padding-top: 30px;
 
   h1 {
     color: #e7e2e2;
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 500;
     letter-spacing: 1px;
     margin-left: 35px;
@@ -9513,9 +9344,9 @@ padding-top: 30px;
 }
 .clients-text {
     color: #e7e2e2;
-    font-size: 21px;
+    font-size: 22px;
     margin: 20px;
-    line-height: 28px;
+    line-height: 29px;
     font-weight: 300;
     text-align: justify;
     padding-left: 15px;
@@ -9703,7 +9534,7 @@ margin-left: 41px;
     width: 100%;
     position: fixed;
   }
-  .logo{
+  .mylogo{
     width: 24%;
     height: 65px;
     float: left;
@@ -9824,7 +9655,7 @@ margin-left: 41px;
   }
   .about-row{
     width: 100%;
-    height: 640px;
+    height: 705px;
     float: left;
     margin-top: 69px;
   
@@ -9842,13 +9673,16 @@ margin-left: 41px;
     font-size: 22px;
 }
   .about-text{
-    font-size: 23px;
+    font-size: 25px;
     margin-top: 15px;
-    line-height: 28px;
+    line-height: 31px;
     font-weight: 300;
   }
   .educ {
-    font-size: 18px;
+    font-size: 19px;
+  }
+  .educ1{
+    font-size: 19px;
   }
   .imgabout {
     width: 100%;
@@ -9867,10 +9701,10 @@ h1 {
 }
 .clients-text {
   color: #e7e2e2;
-  font-size: 20px;
+  font-size: 23px;
   margin: 23px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 29px;
   text-align: justify;
   padding-left: 15px;
 }
