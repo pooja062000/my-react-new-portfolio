@@ -8,8 +8,9 @@ function Header(){
         
         <div className="header-row">
 
-            <div className="mylogo"> 
-</div>
+            
+        <div className="mylogo"> 
+    </div>
            <div className="navbarr">
        <NavLink to="/" className='hello'>Home</NavLink>
         <NavLink to="/about" className='hello'>About</NavLink>
@@ -17,7 +18,7 @@ function Header(){
         <NavLink to="/projects" className='hello'> Projects</NavLink>
             <NavLink to="/contact" className='hello'>Contact</NavLink>
     </div>
-        </div>
+       </div>
      
         </>
     )

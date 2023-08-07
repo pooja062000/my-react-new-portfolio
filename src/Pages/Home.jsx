@@ -9,7 +9,7 @@ function Home(){
         <div className='shadow'> 
         <div className='home-text-main'>
           
-        <div className='text-home1'> Hello !! <br/>I'm Frontend Developer</div>
+        <div className='text-home1'> I'm Pooja Mittal<br/> A Frontend Developer</div>
        
         </div>
         </div>
