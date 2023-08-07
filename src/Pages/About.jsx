@@ -11,15 +11,13 @@ function About(){
                   <h2 className="about-heading">Expert Web Developer & Designer</h2>
                     <h1 className='about-textin'>About Me</h1>
                     <div className='about-boder'></div>
-                    <p className='about-text'>Hi! I'm Pooja Mittal, a passionate and innovative web developer with 2021 years of 
-                    experience in the industry.  I thrive on turning complex ideas into user-friendly and visually appealing websites
-                    that leave a lasting impression. With a solid foundation in front-end development, I excel in HTML, CSS, and JavaScript,
-                    creating seamless and responsive designs that adapt to different devices and screen sizes.I take pride in writing clean and efficient code, optimizing performance,
-                     and ensuring a smooth user experience.  I create successful websites that are fast, easy to use, and built with best practices.
-                     Frontend Development course from  <a href="https://www.sundayschool.co.in/" className="sunday" target="blank">Sunday School</a>
+                    <p className='about-text'>Hello! My name is Pooja Mittal, and I am an enthusiastic and innovative web developer with over 2021 years of experience in the industry. I am truly passionate about my work and take great pride in my ability to transform complex ideas into user-friendly and visually stunning websites that leave a lasting impression on users.
+
+        My expertise lies in front-end development, where I have honed my skills in HTML, CSS, JavaScript, Jquery, React.js, Sass, Git, Github and Bootstrap. These powerful tools allow me to create seamless and responsive designs that adapt effortlessly to various devices and screen sizes, ensuring an optimal user experience across the board.
+        <a href="https://www.sundayschool.co.in/" className="sunday" target="blank">Sunday School</a>
                     </p>
                <div className='educat'>My Education</div>
-                    <div className='educ'>Degree: B.Sc</div>
+                    <div className='educ'>Degree: B.C.A</div>
                     <div className='educ1'>Email : poojawebdeveloper2023@gmail.com</div>
 
                     {/*<button className='butt1'>DOWNLOAD CV</button>*/}
