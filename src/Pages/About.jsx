@@ -20,7 +20,6 @@ function About(){
                     <div className='educ'>Degree: B.C.A</div>
                     <div className='educ1'>Email : poojawebdeveloper2023@gmail.com</div>
 
-                    {/*<button className='butt1'>DOWNLOAD CV</button>*/}
                     <a href={resume} className='butt1'>Download Resume</a>
                 </div>
 
