@@ -17,7 +17,7 @@ function Contact(){
                 
                 <div className="contact-box2">
                 <i class="fa fa-phone" aria-hidden="true"> </i>
-                    <div className="phone-no">+91 9306314660</div>
+                    <div className="phone-no">+91 9306314629</div>
                </div>
                 
                 
